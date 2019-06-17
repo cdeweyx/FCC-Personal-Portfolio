@@ -1,0 +1,38 @@
+
+html {
+    font-family: "Roboto", Helvetica, sans-serif;
+    text-align: center;
+    min-width: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 20px 40px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body ul {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
+}
+
+body ul li {
+    text-align: center;
+    padding: 20px 40px;
+}
